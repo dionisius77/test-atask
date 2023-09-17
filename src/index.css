@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* This is used to make compatibility with cupcake theme in DaisyUI theme */
+  @apply bg-white;
+}
+
+/* DaisyUI extends */
+.drawer-content {
+  @apply w-full;
+  @apply overflow-x-hidden;
+}
+
+.input {
+  @apply bg-white;
+}
